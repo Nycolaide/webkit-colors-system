@@ -53,13 +53,13 @@ import {getColorSystem} from "@minedelve/webkit-colors-system";
 const color = getColorSystem('Red');
 // return color red in Light Theme.
 
-const color = getColor('red', true);
+const color = getColorSystem('red', true);
 // return color red to Dark Theme.
 
-const color = getColor('red', true, true);
+const color = getColorSystem('red', true, true);
 // return color red to Dark Theme on Variant Color.
 
-const color = getColor('red', undefined, undefined, true);
+const color = getColorSystem('red', undefined, undefined, true);
 // return color red to Light Theme on Accesibility Mode.
 ```
 
