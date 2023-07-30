@@ -46,20 +46,20 @@ npm install @minedelve/webkit-colors-system --save-dev
 ## Use
 
 ```js
-import {getColorSystem} from "@minedelve/webkit-colors-system";
+import { getSystemColor } from "@minedelve/webkit-colors-system";
 
 [...]
 
-const color = getColorSystem('Red');
+const color = getSystemColor('Red');
 // return color red in Light Theme.
 
-const color = getColorSystem('red', true);
+const color = getSystemColor('red', true);
 // return color red to Dark Theme.
 
-const color = getColorSystem('red', true, true);
+const color = getSystemColor('red', true, true);
 // return color red to Dark Theme on Variant Color.
 
-const color = getColorSystem('red', undefined, undefined, true);
+const color = getSystemColor('red', undefined, undefined, true);
 // return color red to Light Theme on Accesibility Mode.
 ```
 
