@@ -10,7 +10,7 @@
   <a aria-label="Join the community on Discord" href="https://discord.gg/bVWvfuhemP" target="_blank">
     <img alt="Minedelve Discord" src="https://img.shields.io/badge/Join%20the%20community-black.svg?style=for-the-badge&logo=Discord">
   </a>
-    <a aria-label="Explore Webkit Colors X11 Package" href="https://www.npmjs.com/package/@minedelve/webkit-colors-system" target="_blank">
+    <a aria-label="Explore Webkit Colors System Package" href="https://www.npmjs.com/package/@minedelve/webkit-colors-system" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Minedelve-WebKitColorsSystem-black.svg?style=for-the-badge&logo=NPM">
   </a>
 </p>
@@ -46,7 +46,7 @@ npm install @minedelve/webkit-colors-system --save-dev
 ## Use
 
 ```js
-import {getColorSystem} from "webkit-colors-system";
+import {getColorSystem} from "@minedelve/webkit-colors-system";
 
 [...]
 
@@ -64,7 +64,7 @@ const color = getColor('red', undefined, undefined, true);
 ```
 
 ```js
-import {systemColor} from "webkit-colors-system";
+import {systemColor} from "@minedelve/webkit-colors-system";
 
 [...]
 
@@ -72,15 +72,18 @@ console.log(systemColor)
 // return All Key for display Color
 ```
 
-## Colors 
+## Colors
 
 #### Default
+
 <img width="320" alt="webkit-banner" src="https://github.com/minedelve/.github/blob/minedelve/picture/packages/webkit-colors-system/webkit-colors-system-palette-default.png">
 
 #### Gray
+
 <img width="320" alt="webkit-banner" src="https://github.com/minedelve/.github/blob/minedelve/picture/packages/webkit-colors-system/webkit-colors-system-palette-gray.png">
 
 #### Variant
+
 <img width="320" alt="webkit-banner" src="https://github.com/minedelve/.github/blob/minedelve/picture/packages/webkit-colors-system/webkit-colors-system-palette-variant.png">
 
 ## Core Team
