@@ -33,7 +33,7 @@ function getSystemColor(
     else return list[name].accessibleLight;
   } else {
     if (dark) return list[name].defaultDark;
-    else return list[name].defaultDark;
+    else return list[name].defaultLight;
   }
 }
 
