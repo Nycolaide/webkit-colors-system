@@ -3,7 +3,7 @@
     "declaration": true,
     "declarationDir": "dist",
     "target": "es6",
-    "lib": ["es6"],
+    "lib": ["es6", "DOM"],
     "sourceMap": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
